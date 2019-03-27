@@ -14,6 +14,10 @@
 		B83A6775224AE726009E8123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83A6773224AE726009E8123 /* LaunchScreen.storyboard */; };
 		B83A6780224AE726009E8123 /* HydrantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A677F224AE726009E8123 /* HydrantTests.swift */; };
 		B83A678B224AE726009E8123 /* HydrantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A678A224AE726009E8123 /* HydrantUITests.swift */; };
+		B83A6799224AE8E1009E8123 /* HydrantUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A6798224AE8E1009E8123 /* HydrantUpdate.swift */; };
+		B83A679B224AE8ED009E8123 /* HydrantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A679A224AE8ED009E8123 /* HydrantStore.swift */; };
+		B83A679D224AE8F7009E8123 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A679C224AE8F7009E8123 /* ImageStore.swift */; };
+		B83A679F224AF7C1009E8123 /* HydrantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A679E224AF7C1009E8123 /* HydrantAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B83A6786224AE726009E8123 /* HydrantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83A678A224AE726009E8123 /* HydrantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantUITests.swift; sourceTree = "<group>"; };
 		B83A678C224AE726009E8123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83A6798224AE8E1009E8123 /* HydrantUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantUpdate.swift; sourceTree = "<group>"; };
+		B83A679A224AE8ED009E8123 /* HydrantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantStore.swift; sourceTree = "<group>"; };
+		B83A679C224AE8F7009E8123 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		B83A679E224AF7C1009E8123 /* HydrantAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				B83A676A224AE723009E8123 /* AppDelegate.swift */,
 				B83A676C224AE723009E8123 /* ViewController.swift */,
 				B83A676E224AE723009E8123 /* Main.storyboard */,
+				B83A6798224AE8E1009E8123 /* HydrantUpdate.swift */,
+				B83A679E224AF7C1009E8123 /* HydrantAnnotation.swift */,
+				B83A679A224AE8ED009E8123 /* HydrantStore.swift */,
+				B83A679C224AE8F7009E8123 /* ImageStore.swift */,
 				B83A6771224AE726009E8123 /* Assets.xcassets */,
 				B83A6773224AE726009E8123 /* LaunchScreen.storyboard */,
 				B83A6776224AE726009E8123 /* Info.plist */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83A679B224AE8ED009E8123 /* HydrantStore.swift in Sources */,
+				B83A6799224AE8E1009E8123 /* HydrantUpdate.swift in Sources */,
 				B83A676D224AE723009E8123 /* ViewController.swift in Sources */,
+				B83A679D224AE8F7009E8123 /* ImageStore.swift in Sources */,
 				B83A676B224AE723009E8123 /* AppDelegate.swift in Sources */,
+				B83A679F224AF7C1009E8123 /* HydrantAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
